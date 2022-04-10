@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 void print_menu(){
-    printf("+-----------------------------Quiz Game-----------------------------+");
-    printf("\n| Options:                                                          |");
-    printf("\n+-------------------------------------------------------------------+");
-    printf("\n| 1. Programming Quiz                                               |");
-    printf("\n| 2. Computer Science Quiz                                          |");
-    printf("\n| 3. Mathematics Quiz                                               |");
-    printf("\n| 4. Physics Quiz                                                   |");
-    printf("\n| 5. Show Last Score                                                |");
-    printf("\n| 6. Show Highest Score                                             |");
-    printf("\n| 7. Show Options                                                   |");
-    printf("\n| 8. Exit                                                           |");
-    printf("\n+-------------------------------------------------------------------+");
+    printf("+--------------Quiz Game--------------+");
+    printf("\n| Options:                            |");
+    printf("\n+-------------------------------------+");
+    printf("\n| 1. Programming Quiz                 |");
+    printf("\n| 2. Computer Science Quiz            |");
+    printf("\n| 3. Mathematics Quiz                 |");
+    printf("\n| 4. Physics Quiz                     |");
+    printf("\n| 5. Show Last Score                  |");
+    printf("\n| 6. Show Highest Score               |");
+    printf("\n| 7. Show Options                     |");
+    printf("\n| 8. Exit                             |");
+    printf("\n+-------------------------------------+");
 }
 void programming_quiz(){
     printf("Programming Quiz\n");
