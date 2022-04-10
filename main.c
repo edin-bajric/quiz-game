@@ -31,7 +31,8 @@ void physics_quiz(){
 }
 
 int main(void) {
-    int choice, loop = 1;
+    int choice;
+    int loop = 1;
     print_menu();
 
     while (loop) {
@@ -40,19 +41,79 @@ int main(void) {
 
         switch (choice){
             case 1:
-                programming_quiz();
+                printf("Programming Quiz selected\n");
+                while (1){
+                    char option;
+                    printf("Press 'C' to continue or press 'E' to exit: \n");
+                    scanf(" %c", &option);
+
+                    if(option == 'C'){
+                        programming_quiz();
+                        break;
+                    }
+                    else if(option == 'E'){
+                        printf("Programming Quiz closed\n");
+                        print_menu();
+                        break;
+                    }
+                }
                 break;
 
             case 2:
-                computer_science_quiz();
+                printf("Computer Science Quiz selected\n");
+                while(1){
+                    char option;
+                    printf("Press 'C' to continue or press 'E' to exit: \n");
+                    scanf(" %c", &option);
+
+                    if(option == 'C'){
+                        computer_science_quiz();
+                        break;
+                    }
+                    else if(option == 'E'){
+                        printf("Computer Science Quiz closed\n");
+                        print_menu();
+                        break;
+                    }
+                }
                 break;
 
             case 3:
-                mathematics_quiz();
+                printf("Mathematics Quiz selected\n");
+                while(1){
+                    char option;
+                    printf("Press 'C' to continue or press 'E' to exit: \n");
+                    scanf(" %c", &option);
+
+                    if(option == 'C'){
+                        mathematics_quiz();
+                        break;
+                    }
+                    else if(option == 'E'){
+                        printf("Mathematics Quiz closed\n");
+                        print_menu();
+                        break;
+                    }
+                }
                 break;
 
             case 4:
-                physics_quiz();
+                printf("Physics Quiz selected\n");
+                while(1){
+                    char option;
+                    printf("Press 'C' to continue or press 'E' to exit: \n");
+                    scanf(" %c", &option);
+
+                    if(option == 'C'){
+                        physics_quiz();
+                        break;
+                    }
+                    else if(option == 'E'){
+                        printf("Physics Quiz closed\n");
+                        print_menu();
+                        break;
+                    }
+                }
                 break;
 
             case 5:
@@ -70,7 +131,7 @@ int main(void) {
                 break;
 
             default:
-                printf("Error: Select a valid option");
+                printf("Error: Select a valid option [1-8]");
                 break;
         }
 
