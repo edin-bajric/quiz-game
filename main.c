@@ -41,6 +41,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: b) System.out.println()\n", prog_ans);
     }
 
@@ -58,6 +59,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) B\n", prog_ans);
     }
 
@@ -75,6 +77,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) Anaconda\n", prog_ans);
     }
 
@@ -93,6 +96,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: a) FROM\n", prog_ans);
     }
 
@@ -110,6 +114,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) high-level\n", prog_ans);
     }
 
@@ -127,6 +132,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: d) Ctrl + C\n", prog_ans);
     }
 
@@ -144,6 +150,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: d) String text = \"text\";\n", prog_ans);
     }
 
@@ -161,6 +168,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: b) #define MAX 200\n", prog_ans);
     }
 
@@ -178,6 +186,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) 32\n", prog_ans);
     }
 
@@ -195,6 +204,7 @@ void programming_quiz(){
         prog_score += 10;
     }
     else{
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: a) Debugging\n", prog_ans);
     }
 
@@ -225,7 +235,9 @@ void computer_science_quiz() {
     if (comps_ans == 'c') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) Linux\n", comps_ans);
     }
 
@@ -241,7 +253,9 @@ void computer_science_quiz() {
     if (comps_ans == 'a') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: a) 1024 Gb\n", comps_ans);
     }
 
@@ -258,7 +272,9 @@ void computer_science_quiz() {
     if (comps_ans == 'b') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: b) 1, 2, 3, 4\n", comps_ans);
     }
 
@@ -274,7 +290,9 @@ void computer_science_quiz() {
     if (comps_ans == 'd') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: d) Bus\n", comps_ans);
     }
 
@@ -290,7 +308,9 @@ void computer_science_quiz() {
     if (comps_ans == 'a') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: a) Machine language\n", comps_ans);
     }
 
@@ -306,7 +326,9 @@ void computer_science_quiz() {
     if (comps_ans == 'c') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) Graphical User Interface\n", comps_ans);
     }
 
@@ -322,7 +344,9 @@ void computer_science_quiz() {
     if (comps_ans == 'd') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: d) Assembler\n", comps_ans);
     }
 
@@ -338,7 +362,9 @@ void computer_science_quiz() {
     if (comps_ans == 'c') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: c) wc\n", comps_ans);
     }
 
@@ -354,7 +380,9 @@ void computer_science_quiz() {
     if (comps_ans == 'b') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: b) rmdir\n", comps_ans);
     }
 
@@ -370,7 +398,9 @@ void computer_science_quiz() {
     if (comps_ans == 'd') {
         printf("Correct!\n");
         comps_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: d) A program in execution\n", comps_ans);
     }
 
@@ -391,163 +421,181 @@ void mathematics_quiz(){
     printf("Choose your answer by typing the appropriate letter\n");
 
     //1.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n1. What is the factorial value of 0?\n");
+    printf("\na) -1");
+    printf("\nb) 0");
+    printf("\nc) 1");
+    printf("\nd) Not defined");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'c') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: c) 1\n", math_ans);
     }
 
     //2.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n2. 1 is a prime number.\n");
+    printf("\na) True");
+    printf("\nb) False");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'b') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: b) False\n", math_ans);
     }
 
     //3.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n3. What is the value of sin at 0?\n");
+    printf("\na) 0");
+    printf("\nb) 1");
+    printf("\nc) 0.84147");
+    printf("\nd) 0.5");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
     if (math_ans == 'a') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: a) 0\n", math_ans);
     }
 
     //4.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n4. Which formula is used to calculate the area of a rectangle?\n");
+    printf("\na) A = a + b");
+    printf("\nb) A = a - b");
+    printf("\nc) A = a / b");
+    printf("\nd) A = a * b");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'd') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: d) A = a * b\n", math_ans);
     }
 
     //5.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n5. Which number is written MCMLXXVIII in Roman numerals?\n");
+    printf("\na) 2053");
+    printf("\nb) 15198");
+    printf("\nc) 1986");
+    printf("\nd) 1978");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'd') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: d) 1978\n", math_ans);
     }
 
     //6.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n6. How many sides does a dodecahedron have?\n");
+    printf("\na) 12");
+    printf("\nb) 24");
+    printf("\nc) 14");
+    printf("\nd) 20");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
     if (math_ans == 'a') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: a) 12\n", math_ans);
     }
 
     //7.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n7. In a right-angled triangle, what is the name give to the longest side?\n");
+    printf("\na) Tangent");
+    printf("\nb) Hypotenuse");
+    printf("\nc) Parabola");
+    printf("\nd) Hyperbola");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'b') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: b) Hypotenuse\n", math_ans);
     }
 
     //8.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n8. Who defined zero?\n");
+    printf("\na) Plato");
+    printf("\nb) Archimedes");
+    printf("\nc) John von Neuman");
+    printf("\nd) Brahmagupta");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'd') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: d) Brahmagupta\n", math_ans);
     }
 
     //9.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n9. What are the first 10 digits of Pi?\n");
+    printf("\na) 3.142573494");
+    printf("\nb) 3.141596283");
+    printf("\nc) 3.141592653");
+    printf("\nd) 3.276351926");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'c') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: c) 3.141592653\n", math_ans);
     }
 
     //10.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n10. Which of these philosophers is not a famous Greek mathematician?\n");
+    printf("\na) Archimedes");
+    printf("\nb) Homer");
+    printf("\nc) Euclid");
+    printf("\nd) Pythagoras");
+    printf("\nYour answer:\n");
     scanf("%s", &math_ans);
 
-    if (math_ans == 'a') {
+    if (math_ans == 'b') {
         printf("Correct!\n");
         math_score += 10;
-    } else {
-        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+    else {
+        printf("Incorrect!\n");
+        printf("Your answer: %c\nCorrect answer: b) Homer\n", math_ans);
     }
 
     //score
@@ -577,7 +625,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -593,7 +643,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -609,7 +661,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -625,7 +679,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -641,7 +697,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -657,7 +715,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -673,7 +733,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -689,7 +751,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -705,7 +769,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
@@ -721,7 +787,9 @@ void physics_quiz(){
     if (phy_ans == 'a') {
         printf("Correct!\n");
         phy_score += 10;
-    } else {
+    }
+    else {
+        printf("Incorrect!\n");
         printf("Your answer: %c\nCorrect answer: \n", phy_ans);
     }
 
