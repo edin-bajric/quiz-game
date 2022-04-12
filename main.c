@@ -14,6 +14,12 @@ void print_menu(){
     printf("\n| 8. Exit                             |");
     printf("\n+-------------------------------------+");
 }
+
+void print_smaller_menu(){
+    printf("\n1. Programming Quiz | 2.Computer Science Quiz | 3. Mathematics Quiz | 4. Physics Quiz |\n");
+    printf("5. Show Last Score | 6. Show Highest Score | 7. Show Options | 8. Exit\n");
+}
+
 void programming_quiz(){
     int prog_score = 0;
     char prog_ans;
@@ -196,18 +202,535 @@ void programming_quiz(){
     int prog_correct = prog_score / 10;
     printf("\nYour score: %d / 100\n", prog_score);
     printf("%d / 10 correct\n", prog_correct);
+
+    print_smaller_menu();
 }
 
-void computer_science_quiz(){
+void computer_science_quiz() {
+    int comps_score = 0;
+    char comps_ans;
+
     printf("Computer Science Quiz\n");
+    printf("Choose your answer by typing the appropriate letter\n");
+
+    //1.
+    printf("\n1. Which of these was the first fully supported 64-bit operating system?\n");
+    printf("\na) Windows Vista");
+    printf("\nb) Mac");
+    printf("\nc) Linux");
+    printf("\nd) Windows XP");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'c') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: c) Linux\n", comps_ans);
+    }
+
+    //2.
+    printf("\n2. 1 Terabyte (Tb) =\n");
+    printf("\na) 1024 Gb");
+    printf("\nb) 1000 Gb");
+    printf("\nc) 1200 Gb");
+    printf("\nd) 1275 Gb");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'a') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: a) 1024 Gb\n", comps_ans);
+    }
+
+    //3.
+    printf("\n3. Based on their development, arrange the following computer programing languages in ascending order.\n");
+    printf("1) Perl\n2) Python\n3) Ruby\n4) Java Script\n");
+    printf("\na) 2, 1, 3, 4");
+    printf("\nb) 1, 2, 3, 4");
+    printf("\nc) 1, 2, 4, 3");
+    printf("\nd) 3, 1, 2, 4");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'b') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: b) 1, 2, 3, 4\n", comps_ans);
+    }
+
+    //4.
+    printf("\n4. Which of the following is a communication system that transfers data between components inside a computer?\n");
+    printf("\na) RAM");
+    printf("\nb) Processor");
+    printf("\nc) LAN");
+    printf("\nd) Bus");
+    printf("\nYour Answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'd') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: d) Bus\n", comps_ans);
+    }
+
+    //5.
+    printf("\n5. Which language is directly understood by the computer without the need for a translation program?\n");
+    printf("\na) Machine language");
+    printf("\nb) High level language");
+    printf("\nc) BASIC language");
+    printf("\nd) Assembly language");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'a') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: a) Machine language\n", comps_ans);
+    }
+
+    //6.
+    printf("\n6. What does GUI stand for?\n");
+    printf("\na) Graphical User Interim");
+    printf("\nb) Geographical User Interruption");
+    printf("\nc) Graphical User Interface");
+    printf("\nd) Gain Upper Intensity");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'c') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: c) Graphical User Interface\n", comps_ans);
+    }
+
+    //7.
+    printf("\n7. Which computer program converts assembly language to machine language?\n");
+    printf("\na) Interpreter");
+    printf("\nb) Compiler");
+    printf("\nc) Comparator");
+    printf("\nd) Assembler");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'd') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: d) Assembler\n", comps_ans);
+    }
+
+    //8.
+    printf("\n8. What Linux command is used to count the total number of lines, words and characters contained in a file?\n");
+    printf("\na) countw");
+    printf("\nb) wcount");
+    printf("\nc) wc");
+    printf("\nd) count p");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'c') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: c) wc\n", comps_ans);
+    }
+
+    //9.
+    printf("\n9. What Linux command is used to remove a directory?\n");
+    printf("\na) rdir");
+    printf("\nb) rmdir");
+    printf("\nc) remove");
+    printf("\nd) rd");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'b') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: b) rmdir\n", comps_ans);
+    }
+
+    //10.
+    printf("\n10. What is a process?\n");
+    printf("\na) A program written in a high level programming language kept on a disk");
+    printf("\nb) Contents of the main memory");
+    printf("\nc) A job in secondary memory");
+    printf("\nd) A program in execution");
+    printf("\nYour answer:\n");
+    scanf("%s", &comps_ans);
+
+    if (comps_ans == 'd') {
+        printf("Correct!\n");
+        comps_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: d) A program in execution\n", comps_ans);
+    }
+
+    //score
+    int comps_correct = comps_score / 10;
+    printf("\nYour score: %d / 100\n", comps_score);
+    printf("%d / 10 correct\n", comps_correct);
+
+    print_smaller_menu();
+
 }
 
 void mathematics_quiz(){
+    int math_score = 0;
+    char math_ans;
+
     printf("Mathematics Quiz\n");
+    printf("Choose your answer by typing the appropriate letter\n");
+
+    //1.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //2.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //3.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //4.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //5.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //6.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //7.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //8.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //9.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //10.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &math_ans);
+
+    if (math_ans == 'a') {
+        printf("Correct!\n");
+        math_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", math_ans);
+    }
+
+    //score
+    int math_correct = math_score / 10;
+    printf("\nYour score: %d / 100\n", math_score);
+    printf("%d / 10 correct\n", math_correct);
+
+    print_smaller_menu();
 }
 
 void physics_quiz(){
+    int phy_score = 0;
+    char phy_ans;
+
     printf("Physics Quiz\n");
+    printf("Choose your answer by typing the appropriate letter\n");
+
+    //1.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //2.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //3.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //4.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //5.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //6.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //7.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //8.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //9.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //10.
+    printf("\n1. \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    scanf("%s", &phy_ans);
+
+    if (phy_ans == 'a') {
+        printf("Correct!\n");
+        phy_score += 10;
+    } else {
+        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+    }
+
+    //score
+    int phy_correct = phy_score / 10;
+    printf("\nYour score: %d / 100\n", phy_score);
+    printf("%d / 10 correct\n", phy_correct);
+
+    print_smaller_menu();
 }
 
 int main(void) {
