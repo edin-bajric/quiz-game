@@ -34,7 +34,7 @@ void programming_quiz(){
     printf("c) printf()\n");
     printf("d) cout>>\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'b'){
         printf("Correct!\n");
@@ -52,7 +52,7 @@ void programming_quiz(){
     printf("c) B\n");
     printf("d) Mini C\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'c'){
         printf("Correct!\n");
@@ -70,7 +70,7 @@ void programming_quiz(){
     printf("c) Anaconda\n");
     printf("d) Java\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'c'){
         printf("Correct!\n");
@@ -89,7 +89,7 @@ void programming_quiz(){
     printf("c) WHERE\n");
     printf("d) ORDER BY\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'a'){
         printf("Correct!\n");
@@ -107,7 +107,7 @@ void programming_quiz(){
     printf("c) high-level\n");
     printf("d) none of the above\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'c'){
         printf("Correct!\n");
@@ -125,7 +125,7 @@ void programming_quiz(){
     printf("c) Esc\n");
     printf("d) Ctrl + C\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'd'){
         printf("Correct!\n");
@@ -140,10 +140,10 @@ void programming_quiz(){
     printf("\n7. Which of the following is the correct way of making a string in Java?\n");
     printf("a) String \"Text\";\n");
     printf("b) String text = 'text';\n");
-    printf("c) String text = \"text\";\n");
+    printf("c) String text = \"text\"\n");
     printf("d) String text = \"text\";\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'd'){
         printf("Correct!\n");
@@ -161,7 +161,7 @@ void programming_quiz(){
     printf("c) # define MAX 200\n");
     printf("d) #define MAX 200;\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'b'){
         printf("Correct!\n");
@@ -179,7 +179,7 @@ void programming_quiz(){
     printf("c) 32\n");
     printf("d) 36\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'c'){
         printf("Correct!\n");
@@ -197,7 +197,7 @@ void programming_quiz(){
     printf("c) Executing\n");
     printf("d) Scanning\n");
     printf("Your answer: \n");
-    scanf("%s", &prog_ans);
+    scanf(" %c", &prog_ans);
 
     if(prog_ans == 'a'){
         printf("Correct!\n");
@@ -230,7 +230,7 @@ void computer_science_quiz() {
     printf("\nc) Linux");
     printf("\nd) Windows XP");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'c') {
         printf("Correct!\n");
@@ -248,7 +248,7 @@ void computer_science_quiz() {
     printf("\nc) 1200 Gb");
     printf("\nd) 1275 Gb");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'a') {
         printf("Correct!\n");
@@ -267,7 +267,7 @@ void computer_science_quiz() {
     printf("\nc) 1, 2, 4, 3");
     printf("\nd) 3, 1, 2, 4");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'b') {
         printf("Correct!\n");
@@ -285,7 +285,7 @@ void computer_science_quiz() {
     printf("\nc) LAN");
     printf("\nd) Bus");
     printf("\nYour Answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'd') {
         printf("Correct!\n");
@@ -303,7 +303,7 @@ void computer_science_quiz() {
     printf("\nc) BASIC language");
     printf("\nd) Assembly language");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'a') {
         printf("Correct!\n");
@@ -321,7 +321,7 @@ void computer_science_quiz() {
     printf("\nc) Graphical User Interface");
     printf("\nd) Gain Upper Intensity");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'c') {
         printf("Correct!\n");
@@ -339,7 +339,7 @@ void computer_science_quiz() {
     printf("\nc) Comparator");
     printf("\nd) Assembler");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'd') {
         printf("Correct!\n");
@@ -357,7 +357,7 @@ void computer_science_quiz() {
     printf("\nc) wc");
     printf("\nd) count p");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'c') {
         printf("Correct!\n");
@@ -375,7 +375,7 @@ void computer_science_quiz() {
     printf("\nc) remove");
     printf("\nd) rd");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'b') {
         printf("Correct!\n");
@@ -393,7 +393,7 @@ void computer_science_quiz() {
     printf("\nc) A job in secondary memory");
     printf("\nd) A program in execution");
     printf("\nYour answer:\n");
-    scanf("%s", &comps_ans);
+    scanf(" %c", &comps_ans);
 
     if (comps_ans == 'd') {
         printf("Correct!\n");
@@ -427,7 +427,7 @@ void mathematics_quiz(){
     printf("\nc) 1");
     printf("\nd) Not defined");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'c') {
         printf("Correct!\n");
@@ -443,7 +443,7 @@ void mathematics_quiz(){
     printf("\na) True");
     printf("\nb) False");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'b') {
         printf("Correct!\n");
@@ -461,7 +461,7 @@ void mathematics_quiz(){
     printf("\nc) 0.84147");
     printf("\nd) 0.5");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'a') {
         printf("Correct!\n");
@@ -479,7 +479,7 @@ void mathematics_quiz(){
     printf("\nc) A = a / b");
     printf("\nd) A = a * b");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'd') {
         printf("Correct!\n");
@@ -497,7 +497,7 @@ void mathematics_quiz(){
     printf("\nc) 1986");
     printf("\nd) 1978");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'd') {
         printf("Correct!\n");
@@ -515,7 +515,7 @@ void mathematics_quiz(){
     printf("\nc) 14");
     printf("\nd) 20");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'a') {
         printf("Correct!\n");
@@ -533,7 +533,7 @@ void mathematics_quiz(){
     printf("\nc) Parabola");
     printf("\nd) Hyperbola");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'b') {
         printf("Correct!\n");
@@ -551,7 +551,7 @@ void mathematics_quiz(){
     printf("\nc) John von Neuman");
     printf("\nd) Brahmagupta");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'd') {
         printf("Correct!\n");
@@ -569,7 +569,7 @@ void mathematics_quiz(){
     printf("\nc) 3.141592653");
     printf("\nd) 3.276351926");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'c') {
         printf("Correct!\n");
@@ -587,7 +587,7 @@ void mathematics_quiz(){
     printf("\nc) Euclid");
     printf("\nd) Pythagoras");
     printf("\nYour answer:\n");
-    scanf("%s", &math_ans);
+    scanf(" %c", &math_ans);
 
     if (math_ans == 'b') {
         printf("Correct!\n");
@@ -620,7 +620,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -638,7 +638,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -656,7 +656,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -674,7 +674,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -692,7 +692,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -710,7 +710,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -728,7 +728,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -746,7 +746,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -764,7 +764,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
@@ -782,7 +782,7 @@ void physics_quiz(){
     printf("\n");
     printf("\n");
     printf("\n");
-    scanf("%s", &phy_ans);
+    scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
         printf("Correct!\n");
