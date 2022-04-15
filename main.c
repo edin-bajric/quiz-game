@@ -82,7 +82,7 @@ void programming_quiz(){
     }
 
     //4.
-    printf("\n4. What word is missing from the SQL line below?\n");
+    printf("\n4. Which command is missing from the SQL line below?\n");
     printf("SELECT *\n______ CUSTOMER\n");
     printf("a) FROM\n");
     printf("b) SELECT\n");
