@@ -548,7 +548,7 @@ void mathematics_quiz(){
     printf("\n8. Who defined zero?\n");
     printf("\na) Plato");
     printf("\nb) Archimedes");
-    printf("\nc) John von Neuman");
+    printf("\nc) John von Neumann");
     printf("\nd) Brahmagupta");
     printf("\nYour answer:\n");
     scanf(" %c", &math_ans);
