@@ -615,11 +615,11 @@ void physics_quiz(){
 
     //1.
     printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -632,12 +632,12 @@ void physics_quiz(){
     }
 
     //2.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n2. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -650,12 +650,12 @@ void physics_quiz(){
     }
 
     //3.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n3. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -668,12 +668,12 @@ void physics_quiz(){
     }
 
     //4.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n4. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -686,12 +686,12 @@ void physics_quiz(){
     }
 
     //5.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n5. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -704,12 +704,12 @@ void physics_quiz(){
     }
 
     //6.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n6. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -722,12 +722,12 @@ void physics_quiz(){
     }
 
     //7.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n7. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -740,12 +740,12 @@ void physics_quiz(){
     }
 
     //8.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n8. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -758,12 +758,12 @@ void physics_quiz(){
     }
 
     //9.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n9. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
@@ -776,12 +776,12 @@ void physics_quiz(){
     }
 
     //10.
-    printf("\n1. \n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
+    printf("\n10. \n");
+    printf("\na) ");
+    printf("\nb) ");
+    printf("\nc) ");
+    printf("\nd) ");
+    printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
     if (phy_ans == 'a') {
