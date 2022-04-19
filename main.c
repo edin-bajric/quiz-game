@@ -614,11 +614,11 @@ void physics_quiz(){
     printf("Choose your answer by typing the appropriate letter\n");
 
     //1.
-    printf("\n1. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n1. Theory of relativity was presented by which scientist?\n");
+    printf("\na) Albert Einstein");
+    printf("\nb) Isaac Newton");
+    printf("\nc) Stephen Hawking");
+    printf("\nd) Marie Curie");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
@@ -628,141 +628,141 @@ void physics_quiz(){
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: a) Albert Einstein\n", phy_ans);
     }
 
     //2.
-    printf("\n2. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n2. What type of lens is used in a magnifying glass?\n");
+    printf("\na) Concave");
+    printf("\nb) Plano-Concave");
+    printf("\nc) Convex");
+    printf("\nd) None of the above");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'c') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: c) Convex\n", phy_ans);
     }
 
     //3.
-    printf("\n3. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n3. What is the name of the instrument which measures and records the relative humidity of the air?\n");
+    printf("\na) Hydrometer");
+    printf("\nb) Hygrometer");
+    printf("\nc) Lactometer");
+    printf("\nd) Barometer");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'b') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: b) Hygrometer\n", phy_ans);
     }
 
     //4.
-    printf("\n4. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n4. Electrons carry a \n");
+    printf("\na) Positive charge");
+    printf("\nb) Negative charge");
+    printf("\nc) Variable charge");
+    printf("\nd) Neutral charge");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'b') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: b) Negative charge\n", phy_ans);
     }
 
     //5.
-    printf("\n5. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n5. The speed of light with the rise in the temperature of the medium \n");
+    printf("\na) Increases");
+    printf("\nb) Decreases");
+    printf("\nc) Remains unaltered");
+    printf("\nd) Drops suddenly");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'c') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: c) Remains unaltered\n", phy_ans);
     }
 
     //6.
-    printf("\n6. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n6. Longitudinal waves cannot travel through \n");
+    printf("\na) Solid");
+    printf("\nb) Liquid");
+    printf("\nc) Gas");
+    printf("\nd) Vacuum");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'd') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: d) Vacuum\n", phy_ans);
     }
 
     //7.
-    printf("\n7. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n7. Which of the following parts of the sunlight makes the solar cooker hot?\n");
+    printf("\na) Ultraviolet");
+    printf("\nb) Red light");
+    printf("\nc) Infrared");
+    printf("\nd) Cosmic rays");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'c') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: c) Infrared\n", phy_ans);
     }
 
     //8.
-    printf("\n8. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n8. The sky appears blue because of \n");
+    printf("\na) Atmospheric water vapour");
+    printf("\nb) Scattering of light");
+    printf("\nc) Reflection on seawater");
+    printf("\nd) Emission of blue wavelength by the sun");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'b') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: b) Scattering of light\n", phy_ans);
     }
 
     //9.
-    printf("\n9. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n9. In the atmosphere ultraviolet rays are absorbed by \n");
+    printf("\na) Ozone");
+    printf("\nb) Helium");
+    printf("\nc) Oxygen");
+    printf("\nd) Nitrogen");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
@@ -772,25 +772,25 @@ void physics_quiz(){
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: a) Ozone\n", phy_ans);
     }
 
     //10.
-    printf("\n10. \n");
-    printf("\na) ");
-    printf("\nb) ");
-    printf("\nc) ");
-    printf("\nd) ");
+    printf("\n10. In which of the following cryogenic engines are used?\n");
+    printf("\na) Frost-free refrigerators");
+    printf("\nb) Submarine propulsion");
+    printf("\nc) Researches in super conductivity");
+    printf("\nd) Rockets");
     printf("\nYour answer:\n");
     scanf(" %c", &phy_ans);
 
-    if (phy_ans == 'a') {
+    if (phy_ans == 'd') {
         printf("Correct!\n");
         phy_score += 10;
     }
     else {
         printf("Incorrect!\n");
-        printf("Your answer: %c\nCorrect answer: \n", phy_ans);
+        printf("Your answer: %c\nCorrect answer: d) Rockets\n", phy_ans);
     }
 
     //score
