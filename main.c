@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int scores[128], i = 0;
+
 void print_menu(){
     printf("+--------------Quiz Game--------------+");
     printf("\n| Options:                            |");
@@ -214,6 +216,9 @@ void programming_quiz(){
     printf("%d / 10 correct\n", prog_correct);
 
     print_smaller_menu();
+
+    scores[i] = prog_score;
+    i++;
 }
 
 void computer_science_quiz() {
@@ -411,6 +416,8 @@ void computer_science_quiz() {
 
     print_smaller_menu();
 
+    scores[i] = comps_score;
+    i++;
 }
 
 void mathematics_quiz(){
@@ -604,6 +611,9 @@ void mathematics_quiz(){
     printf("%d / 10 correct\n", math_correct);
 
     print_smaller_menu();
+
+    scores[i] = math_score;
+    i++;
 }
 
 void physics_quiz(){
@@ -799,6 +809,9 @@ void physics_quiz(){
     printf("%d / 10 correct\n", phy_correct);
 
     print_smaller_menu();
+
+    scores[i] = phy_score;
+    i++;
 }
 
 int main(void) {
@@ -816,7 +829,6 @@ int main(void) {
                     char option;
                     printf("\nPress 'C' to continue or press 'E' to exit: \n");
                     scanf(" %c", &option);
-
                     if(option == 'C'){
                         programming_quiz();
                         break;
@@ -887,9 +899,11 @@ int main(void) {
                 break;
 
             case 5:
+                printf("Last score: %d\n", scores[i - 1]);
                 break;
 
             case 6:
+
                 break;
 
             case 7:
