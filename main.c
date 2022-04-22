@@ -215,10 +215,10 @@ void programming_quiz(){
     printf("\nYour score: %d / 100\n", prog_score);
     printf("%d / 10 correct\n", prog_correct);
 
-    print_smaller_menu();
-
     scores[i] = prog_score;
     i++;
+
+    print_smaller_menu();
 }
 
 void computer_science_quiz() {
@@ -414,10 +414,10 @@ void computer_science_quiz() {
     printf("\nYour score: %d / 100\n", comps_score);
     printf("%d / 10 correct\n", comps_correct);
 
-    print_smaller_menu();
-
     scores[i] = comps_score;
     i++;
+
+    print_smaller_menu();
 }
 
 void mathematics_quiz(){
@@ -610,10 +610,10 @@ void mathematics_quiz(){
     printf("\nYour score: %d / 100\n", math_score);
     printf("%d / 10 correct\n", math_correct);
 
-    print_smaller_menu();
-
     scores[i] = math_score;
     i++;
+
+    print_smaller_menu();
 }
 
 void physics_quiz(){
@@ -808,10 +808,10 @@ void physics_quiz(){
     printf("\nYour score: %d / 100\n", phy_score);
     printf("%d / 10 correct\n", phy_correct);
 
-    print_smaller_menu();
-
     scores[i] = phy_score;
     i++;
+
+    print_smaller_menu();
 }
 
 int main(void) {
