@@ -921,7 +921,5 @@ int main(void) {
 
     }
 
-    printf("Amar\n");
-
     return 0;
 }
