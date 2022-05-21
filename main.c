@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int scores[128], i = 0;
+int scores[128], i = 0, max;
 
 void print_menu(){
     printf("+--------------Quiz Game--------------+");
@@ -18,7 +18,7 @@ void print_menu(){
 }
 
 void print_smaller_menu(){
-    printf("\n1. Programming Quiz | 2.Computer Science Quiz | 3. Mathematics Quiz | 4. Physics Quiz |\n");
+    printf("\n1. Programming Quiz | 2. Computer Science Quiz | 3. Mathematics Quiz | 4. Physics Quiz |\n");
     printf("5. Show Last Score | 6. Show Highest Score | 7. Show Options | 8. Exit\n");
 }
 
@@ -903,7 +903,15 @@ int main(void) {
                 break;
 
             case 6:
+                max = scores[0];
+                
+                for(int j = 0; j < i; j++){
+                    if(scores[j] > max){
+                        max = scores[j];
+                    }  
+                }
 
+                printf("Highest score: %d\n", max);
                 break;
 
             case 7:
