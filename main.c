@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//global variables
 int scores[128], i = 0, max;
 
 void print_menu(){
